@@ -1,75 +1,113 @@
 [
   {
-    "productCode": "ORJ-001",
-    "name": "Shadow Fade Hoodie",
+    "productCode": "MJUM8066-GYDZ",
+    "name": "Shadow Knit Crew Neck",
     "vendor": "ORUJIN",
-    "price": 65,
-    "alt": "shadow fade hoodie",
-    "image": "/products/hoodie1.jpeg",
+    "price": 75,
+    "alt": "shadow knit crew neck",
+    "image": "/products/pdp1.jpeg",
     "colorOptions": [
-      {"color": "#000000", "title": "Black"},
-      {"color": "#4A4A4A", "title": "Ash Grey"}
+      { "color": "#000000", "title": "Midnight Black" },
+      { "color": "#4D34AE", "title": "Ash Purple" },
+      { "color": "#488266", "title": "Urban Moss" }
     ],
-    "sizeOptions": ["s", "m", "l", "xl"],
-    "wishlist": false,
-    "tags": ["hoodie", "unisex"],
+    "sizeOptions": ["xs", "s", "m", "l", "xl"],
+    "wishlist": true,
+    "tags": ["sweater", "unisex"],
     "gallery": [
-      {"image": "/products/hoodie1.jpeg", "alt": "shadow fade hoodie front"},
-      {"image": "/products/hoodie1b.jpeg", "alt": "shadow fade hoodie back"}
+      { "image": "/products/pdp1.jpeg", "alt": "shadow knit crew 1" },
+      { "image": "/products/pdp2.jpeg", "alt": "shadow knit crew 2" },
+      { "image": "/products/pdp3.jpeg", "alt": "shadow knit crew 3" },
+      { "image": "/products/pdp4.jpeg", "alt": "shadow knit crew 4" }
     ],
-    "description": "Oversized hoodie with raw hems and washed tones. Built for night streets and endless wear."
+    "description": "A heavyweight lambswool knit built for edge and comfort. Washed for softness, designed for the underground."
   },
   {
-    "productCode": "ORJ-002",
-    "name": "Rust Chain Tee",
-    "vendor": "ORUJIN",
-    "price": 32,
-    "alt": "rust chain graphic t-shirt",
-    "image": "/products/tshirt1.jpeg",
-    "tags": ["tshirt", "men"],
-    "sizeOptions": ["s", "m", "l", "xl"],
-    "description": "Graphic tee featuring chain-link artwork in a distressed rust finish."
+    "name": "Classic Street Tee",
+    "price": 75,
+    "alt": "classic black street tee",
+    "image": "/products/shirt1.jpg",
+    "tags": ["tshirt", "men"]
   },
   {
-    "productCode": "ORJ-003",
-    "name": "Iron Grip Rings",
-    "vendor": "ORUJIN",
-    "price": 19,
-    "alt": "iron grip rings set",
-    "image": "/products/rings1.jpeg",
-    "tags": ["accessories", "rings"],
-    "description": "Set of stainless steel rings with industrial engravings."
+    "name": "Classic Street Tee",
+    "price": 75,
+    "alt": "classic white street tee",
+    "image": "/products/shirt2.jpg",
+    "tags": ["tshirt", "men"]
   },
   {
-    "productCode": "ORJ-004",
-    "name": "Concrete Silence Jacket",
-    "vendor": "ORUJIN",
-    "price": 110,
-    "alt": "concrete silence jacket",
-    "image": "/products/jacket1.jpeg",
-    "tags": ["jacket", "unisex"],
-    "sizeOptions": ["m", "l", "xl"],
-    "description": "Heavy cotton jacket with oversized pockets and a washed-out urban tone."
+    "name": "Classic Street Tee",
+    "price": 75,
+    "alt": "classic grey street tee",
+    "image": "/products/shirt3.jpg",
+    "tags": ["tshirt", "men"]
   },
   {
-    "productCode": "ORJ-005",
-    "name": "Chainlink Earrings",
-    "vendor": "ORUJIN",
-    "price": 15,
-    "alt": "chainlink earrings",
-    "image": "/products/earrings1.jpeg",
-    "tags": ["accessories", "earrings"],
-    "description": "Minimal yet bold chain-inspired earrings. Industrial edge in every detail."
+    "name": "Distorted Graphic Tee",
+    "price": 13.90,
+    "alt": "distorted graphic tee woman",
+    "image": "/products/woman1.jpeg",
+    "tags": ["woman", "tshirt"],
+    "meta": "+ 2 colors"
   },
   {
-    "productCode": "ORJ-006",
-    "name": "Ashen Graphic Tee",
-    "vendor": "ORUJIN",
-    "price": 28,
-    "alt": "ashen graphic tee",
-    "image": "/products/tshirt2.jpeg",
-    "tags": ["tshirt", "women"],
-    "sizeOptions": ["s", "m", "l"],
-    "description": "Soft cotton tee featuring abstract gothic artwork in muted tones."
+    "name": "Distorted Graphic Tee",
+    "price": 15.90,
+    "alt": "distorted graphic tee woman",
+    "image": "/products/woman2.jpeg",
+    "tags": ["woman", "tshirt"]
+  },
+  {
+    "name": "Distorted Graphic Tee",
+    "price": 13.90,
+    "alt": "distorted graphic tee woman",
+    "image": "/products/woman3.jpeg",
+    "tags": ["woman", "tshirt"],
+    "meta": "+ 2 colors"
+  },
+  {
+    "name": "Distorted Graphic Tee",
+    "price": 15.90,
+    "alt": "distorted graphic tee woman",
+    "image": "/products/woman4.jpeg",
+    "tags": ["woman", "tshirt"]
+  },
+  {
+    "name": "Distorted Graphic Tee",
+    "price": 15.90,
+    "alt": "distorted graphic tee woman",
+    "image": "/products/woman5.jpeg",
+    "tags": ["woman", "tshirt"],
+    "originalPrice": 31.50
+  },
+  {
+    "name": "Distorted Graphic Tee",
+    "price": 21,
+    "alt": "distorted graphic tee woman",
+    "image": "/products/woman6.jpeg",
+    "tags": ["woman", "tshirt"]
+  },
+  {
+    "name": "Distorted Graphic Tee",
+    "price": 15.90,
+    "alt": "distorted graphic tee woman",
+    "image": "/products/woman3.jpeg",
+    "tags": ["woman", "tshirt"]
+  },
+  {
+    "name": "Distorted Graphic Tee",
+    "price": 15.90,
+    "alt": "distorted graphic tee woman",
+    "image": "/products/woman2.jpeg",
+    "tags": ["woman", "tshirt"],
+    "originalPrice": 31.50
+  },
+  {
+    "name": "Distorted Graphic Tee",
+    "price": 21,
+    "alt": "distorted graphic tee woman",
+    "image": "/products/woman1.jpeg",
+    "tags": ["woman", "tshirt"]
   }
 ]
