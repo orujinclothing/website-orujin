@@ -1,66 +1,66 @@
 [
-    {
-        "title": "The new standard of Opening and Closing",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog1.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long established fact that a reader by the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.png",
-        "link": "/blog/sample",
-        "excerpt": "London-basedsonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long establishable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long estab the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "Loproducers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "The new standard of Opening and Closing",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog1.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral tish flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long established fact that a reader by the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long et a reader by the readable t is a long et a reader by the rea",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-bs and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    }
-  ]
+  {
+    "title": "Forged in Shadows",
+    "category": "style",
+    "alt": "blog forged in shadows",
+    "image": "/blogs/blog1.png",
+    "link": "/blog/forged-in-shadows",
+    "excerpt": "Exploring the raw edges of modern streetwear — oversized hoodies, layered cuts, and heavy silhouettes built for the underground."
+  },
+  {
+    "title": "Chains and Chaos",
+    "category": "accessories",
+    "alt": "blog chains and chaos",
+    "image": "/blogs/blog2.png",
+    "link": "/blog/chains-and-chaos",
+    "excerpt": "Statement accessories define the streets. Rings, chains, and earrings that turn every fit into armor."
+  },
+  {
+    "title": "Concrete Silence",
+    "category": "style",
+    "alt": "blog concrete silence",
+    "image": "/blogs/blog3.png",
+    "link": "/blog/concrete-silence",
+    "excerpt": "Minimal, monochrome, and industrial — the aesthetic that thrives in the shadows of the city."
+  },
+  {
+    "title": "Edge of Winter",
+    "category": "outerwear",
+    "alt": "blog edge of winter",
+    "image": "/blogs/blog3.png",
+    "link": "/blog/edge-of-winter",
+    "excerpt": "Heavy jackets and layered textures designed for cold nights, dim lights, and restless streets."
+  },
+  {
+    "title": "Nocturnal Uniform",
+    "category": "style",
+    "alt": "blog nocturnal uniform",
+    "image": "/blogs/blog2.png",
+    "link": "/blog/nocturnal-uniform",
+    "excerpt": "A stripped-down look at the essentials — dark tees, raw fabrics, and everyday armor for outsiders."
+  },
+  {
+    "title": "The Weight of Metal",
+    "category": "accessories",
+    "alt": "blog weight of metal",
+    "image": "/blogs/blog1.png",
+    "link": "/blog/weight-of-metal",
+    "excerpt": "Industrial rings, bold chains, and steel details — the pieces that ground every look in defiance."
+  },
+  {
+    "title": "Rough Cuts",
+    "category": "design",
+    "alt": "blog rough cuts",
+    "image": "/blogs/blog2.png",
+    "link": "/blog/rough-cuts",
+    "excerpt": "From raw hems to distressed finishes, our process embraces imperfection as a mark of authenticity."
+  },
+  {
+    "title": "Beneath the Neon",
+    "category": "style",
+    "alt": "blog beneath the neon",
+    "image": "/blogs/blog2.png",
+    "link": "/blog/beneath-the-neon",
+    "excerpt": "Streetwear at night — dark silhouettes, stark contrasts, and the glow of the underground scene."
+  }
+]
