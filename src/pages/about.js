@@ -28,7 +28,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/about.png'}
-          title={`Sydney \n A British brand since 1860`}
+          title={`Orujin Clothing \n Built for the New Generation`}
         />
 
         <div className={styles.navContainer}>
@@ -49,16 +49,17 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+              Founded with a vision to redefine streetwear, Orujin Clothing is
+              an independent brand with a bold edge. We make everyday essentials
+              with a focus on individuality and culture.
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
+              From oversized tees to signature hoodies, our journey has always
+              been about pushing boundaries in both style and comfort. Every
+              piece reflects the energy of today’s youth and the legacy we’re
+              building for tomorrow.
             </p>
           </div>
         </Container>
@@ -72,47 +73,34 @@ const AboutPage = (props) => {
             <h3>Our Values</h3>
             <div ref={valuesRef}>
               <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
+                Orujin was born to celebrate creativity and fearless
+                self-expression. What started as a simple vision — to make
+                clothing that feels as good as it looks — has grown into a
+                culture that inspires our community to stand out and stay true.
               </p>
               <ol>
-                <li>Be an ecowear</li>
-                <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
+                <li>Be sustainable and future-focused</li>
+                <li>Craft pieces that are unique, not mass-produced</li>
+                <li>Use high-quality, responsible materials</li>
               </ol>
               <img alt={'founder'} src={toOptimizedImage('/about2.png')}></img>
             </div>
             <h3>Sustainability</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+                From day one, Orujin has been committed to doing better — for
+                both people and the planet. We focus on using durable fabrics,
+                mindful production, and creating pieces that last longer than
+                just one season.
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+                Every hoodie, tee, or jacket is designed with intention —
+                minimal waste, quality construction, and timeless style that
+                avoids fast fashion trends.
               </p>
               <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+                Our mission is simple: make streetwear that not only represents
+                individuality but also respects the world we live in.
               </p>
             </div>
           </div>
