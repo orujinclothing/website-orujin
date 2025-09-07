@@ -31,8 +31,8 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'ORUJIN CLOTHING INSANE'}
-        subtitle={'ONE OF THE CLOTHING BRANDS OF THE WORLD'}
+        title={'ORUJIN CLOTHING'}
+        subtitle={'STREETWEAR REDEFINED'}
         ctaText={'shop now'}
         ctaAction={goToShop}
       />
@@ -40,12 +40,11 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+          Crafted with passion for bold individuality — this is
+          <span className={styles.gold}> Orujin Clothing.</span>
         </p>
         <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+          Inspired by street culture, built for those who stand out.
         </p>
       </div>
 
@@ -79,8 +78,8 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            title={'Signature Streetwear'}
+            description={`Our best-selling oversized tees and hoodies — designed for comfort, built for confidence.`}
             textLink={'shop now'}
             link={'/shop'}
           />
@@ -89,7 +88,7 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
+        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n Selected Styles`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
@@ -99,16 +98,16 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'About Orujin'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“Orujin is about fearless self-expression. We design for those who create their own path.”'
         }
       />
 
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'Orujin Journal'} subtitle={'Stories, drops & behind the scenes'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
@@ -117,9 +116,9 @@ const IndexPage = () => {
       <div className={styles.sustainableContainer}>
         <Hero
           image={toOptimizedImage('/banner3.png')}
-          title={'We are Sustainable'}
+          title={'The Orujin Story'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'From our first sketch to every drop — discover the vision, culture, and community that define us.'
           }
           ctaText={'read more'}
           maxWidth={'660px'}
@@ -131,7 +130,7 @@ const IndexPage = () => {
       <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          subtitle={'Tag @orujinclothing to be featured.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />
