@@ -13,75 +13,67 @@ const SamplePage = (props) => {
         <Container>
           <div className={styles.blogContainer}>
             <Blog
-              category={'design'}
-              title={'Friends of Sydney: Flora Fricker'}
+              category={'Fashion'}
+              title={'The Rise of Orujin Clothing'}
               image={'/blogFeatured.png'}
-              alt={''}
+              alt={'Orujin Clothing Featured Look'}
             >
               <div className={styles.content}>
                 <p className={styles.excerpt}>
-                  London-based floral designer Flora Fricker champions seasonal
-                  British flowers and UK producers in her beautiful and
-                  sustainable creations. This season, we worked with Flora to
-                  style Sunspel stores for Christmas, for which she produced
-                  eye-catching sustainably sourced wreaths.
+                  Orujin Clothing was born from a love for bold self-expression
+                  and the belief that fashion should be both fearless and
+                  inclusive. Our collections bring together minimal design with
+                  gothic undertones, creating a unique style that stands out on
+                  the street and on the stage.
                 </p>
                 <p className={styles.blogParagraph}>
-                  Delaware limited liability company (The Sydney) collects
-                  personal information that you voluntarily provide when
-                  applying or registering for an account with The Upside or
-                  making a purchase on The Upside website; www.theupside.com
-                  (the Website).
+                  Each piece is carefully crafted to balance comfort with
+                  statement design — from oversized hoodies and layered jackets
+                  to versatile trousers that move with you. At Orujin, clothing
+                  is more than fabric; it’s a way of telling the world who you
+                  are without saying a word.
                 </p>
                 <p className={styles.blogParagraph}>
-                  This Privacy Policy (Privacy Policy) outlines how your
-                  information is collected, used and disclosed when you access
-                  or use our Services as defined in our Terms. This information
-                  is collected, used and disclosed in accordance with the
-                  Privacy Act 1988 (Cth) (Privacy Act).
+                  We collaborate with emerging designers and artists to keep our
+                  collections fresh, experimental, and culturally relevant. This
+                  spirit of collaboration ensures every drop feels original and
+                  limited, giving our community something they can truly own.
                 </p>
                 <p className={styles.blogParagraph}>
-                  This Privacy Policy is incorporated by reference into our
-                  Terms. Any capitalized terms not defined in this Policy are
-                  defined in the Terms. You agree to comply with all Terms when
-                  accessing or using our Services, including this Privacy
-                  Policy.
+                  Sustainability is also a core value. By focusing on smaller
+                  runs, ethical sourcing, and timeless silhouettes, Orujin
+                  creates clothing designed to last — both in quality and in
+                  style.
                 </p>
               </div>
+
               <div className={styles.imagesContainer}>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/cloth.png')} alt={'sample1'} />
+                  <img src={toOptimizedImage('/cloth.png')} alt={'Orujin Look 1'} />
                 </div>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/collections/collection1.png')} alt={'sample2'} />
+                  <img src={toOptimizedImage('/collections/collection1.png')} alt={'Orujin Look 2'} />
                 </div>
               </div>
+
               <div className={styles.content}>
-                <h2 className={styles.blogSubHeader}>2. Lorem ipsum</h2>
+                <h2 className={styles.blogSubHeader}>Defining a New Standard</h2>
                 <p className={styles.blogParagraph}>
-                  Our Services, including but not limited to the registration of
-                  an account with us or placing of an order, is not intended to
-                  be used by children under the age of 13. When a visitor
-                  indicates an age under 13, the registration process for The
-                  Upside website cannot be completed, and no personally
-                  identifying information is collected in conjunction with that
-                  attempted submission except that we retain e-mail addresses of
-                  such persons (and record of access attempts) for purposes of
-                  denying registration. Otherwise, we do not knowingly collect
-                  personally identifiable information from visitors under the
-                  age of 13.
+                  We see fashion as a form of rebellion — a way to challenge
+                  trends while creating your own. Orujin pieces are designed to
+                  be layered, styled, and reinvented depending on the wearer’s
+                  mood. There are no rules, only possibilities.
                 </p>
                 <p className={styles.blogParagraph}>
-                  If you are under 18, any use of our Services must be with the
-                  involvement of a parent or guardian. By accessing or using our
-                  Website, you warrant and represent to us that you are over the
-                  age of 18 years and you have the right, authority and legal
-                  capacity to enter into a legally binding agreement and to
-                  abide by this Privacy Policy.
+                  Whether it’s a casual day out or a late-night show, our
+                  collections adapt to every setting. The result is clothing
+                  that feels raw, authentic, and deeply personal to everyone who
+                  wears it.
                 </p>
                 <p className={styles.blogParagraph}>
-                  The Upside collects, uses and discloses information regarding
-                  users aged 13-18 in the same manner as it does for adults.
+                  This is just the beginning. Orujin Clothing is more than a
+                  brand — it’s a movement. And you’re invited to be a part of
+                  it.
                 </p>
               </div>
             </Blog>
