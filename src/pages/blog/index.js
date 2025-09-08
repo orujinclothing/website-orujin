@@ -20,10 +20,10 @@ const BlogPage = (props) => {
         <Hero
           maxWidth={'400px'}
           image={toOptimizedImage('/blogCover.png')}
-          title={`The new standard of Closing`}
-          ctaLink={'read story'}
+          title={`The Orujin Clothing Journal`}
+          ctaLink={'Read More'}
           ctaTo={'/blog/sample'}
-          header={'design'}
+          header={'Style & Stories'}
         />
 
         <div className={styles.navContainer}>
@@ -37,19 +37,19 @@ const BlogPage = (props) => {
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Design
+            Fashion
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Collaboration
+            Streetwear
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Interview
+            Lifestyle
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
