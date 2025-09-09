@@ -10,3 +10,7 @@
   to = "/.netlify/images?url=/:splat&fm=webp"
   status = 200
   force = true
+
+# Enable Stackbit Visual Editor
+[[plugins]]
+  package = "@netlify/plugin-stackbit"
