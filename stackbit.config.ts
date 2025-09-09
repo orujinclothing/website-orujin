@@ -1,56 +1,52 @@
-// stackbit.config.ts
 import { defineStackbitConfig, SiteMapEntry } from "@stackbit/types";
-import { GitContentSource } from "@stackbit/cms-git";
 
 export default defineStackbitConfig({
-  stackbitVersion: "~0.6.0",
-  nodeVersion: "16",
-
+  // ...
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
       contentDirs: ["content"],
-
       models: [
-        {
-          name: "Product",
-          type: "page",  // page so visual editor works
-          urlPath: "/products/{slug}",
-          filePath: "content/products/{slug}.md",
-          fields: [
-            { name: "title", type: "string", required: true },
-            { name: "price", type: "number" },
-            { name: "category", type: "enum", options: ["T-Shirts", "Hoodies", "Accessories"] },
-            { name: "inStock", type: "boolean" },
-            { name: "images", type: "list", items: { type: "image" } },
-            { name: "body", type: "markdown" }
-          ]
-        },
         {
           name: "Page",
           type: "page",
+          // Static URL path derived from the "slug" field
           urlPath: "/{slug}",
           filePath: "content/pages/{slug}.json",
-          fields: [
-            { name: "title", type: "string", required: true },
-            { name: "body", type: "markdown" }
-          ]
-        }
+          fields: [{ name: "title", type: "string", required: true }]
+        },
+        // ...
       ],
     })
   ],
-
   siteMap: ({ documents, models }) => {
-    const pageModels = models.filter((m) => m.type === "page");
+    // 1. Filter all page models
+    const pageModels = models.filter((m) => m.type === "page")
+
     return documents
-      .filter((d) => pageModels.some((m) => m.name === d.modelName))
-      .map((doc) => {
+      // 2. Filter all documents which are of a page model
+      .filter((d) => pageModels.some(m => m.name === d.modelName))
+      // 3. Map each document to a SiteMapEntry
+      .map((document) => {
+        // Map the model name to its corresponding URL
+        const urlModel = (() => {
+            switch (document.modelName) {
+                case 'Page':
+                    return 'otherPage';
+                case 'Blog':
+                    return 'otherBlog';
+                default:
+                    return null;
+            }
+        })();
+
         return {
-          stableId: doc.id,
-          urlPath: doc.urlPath ?? `/${doc.modelName.toLowerCase()}/${doc.id}`,
-          document: doc,
-          isHomePage: doc.modelName === "Page" && doc.id === "home"
+          stableId: document.id,
+          urlPath: `/${urlModel}/${document.id}`,
+          document,
+          isHomePage: false,
         };
-      }) as SiteMapEntry[];
+      })
+      .filter(Boolean) as SiteMapEntry[];
   }
 });
