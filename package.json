@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "plop": "^3.0.5",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "@netlify/plugin-stackbit": "^1.0.0"
   }
 }
