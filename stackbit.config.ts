@@ -1,4 +1,3 @@
-// stackbit.config.ts
 import { defineStackbitConfig } from "@stackbit/types";
 import { GitContentSource } from "@stackbit/cms-git";
 
@@ -6,16 +5,40 @@ export default defineStackbitConfig({
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
-      contentDirs: ["content"],
+      contentDirs: ["src"],
+
       models: [
         {
-          name: "Page",
-          type: "page", // mark it as a page model
-          urlPath: "/{slug}", // URLs will be based on the slug
-          filePath: "content/pages/{slug}.json",
+          name: "SiteConfig",
+          type: "data", // not a page, just site-wide config
+          filePath: "src/config.json",
           fields: [
-            { name: "title", type: "string", required: true },
-            { name: "slug", type: "string", required: true }
+            { name: "siteTitle", type: "string" },
+            { name: "tagline", type: "string" },
+            { name: "logo", type: "image" }
+          ]
+        },
+        {
+          name: "Blog",
+          type: "page",
+          urlPath: "/blog/{slug}",
+          filePath: "src/helpers/blog.json",
+          fields: [
+            { name: "title", type: "string" },
+            { name: "slug", type: "string" },
+            { name: "content", type: "markdown" }
+          ]
+        },
+        {
+          name: "Product",
+          type: "page",
+          urlPath: "/products/{slug}",
+          filePath: "src/helpers/product.json",
+          fields: [
+            { name: "title", type: "string" },
+            { name: "slug", type: "string" },
+            { name: "price", type: "number" },
+            { name: "image", type: "image" }
           ]
         }
       ],
